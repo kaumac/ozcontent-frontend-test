@@ -38,15 +38,26 @@ Yes, I organized a few front-end meetups in São Paulo and Florianópolis and I 
 
 ## 1. Your projects
 ### Describe an interesting project you worked in the past.
-
+99Hotels was a real-time virtual receptionist for hotels. You could check-in and check-out through the app, order room service and chat with the front-desk, all in real-time.
 ### What stack did you use?
+We used Firebase as a back-end as a service along with NodeJS for more complex tasks. In the front-end we used AngularJS, GulpJS, Cordova, Ionic and SASS+Bourbon.
 
 ### Describe the composition and attitude of your team. (if you had one)
+We had a Front-end developer (me), a UI/UX designer and a sales rep. We were very focused on data and feedback from customers and we tried to build everything, from features to design, based on a feedback from a customer.
 
 ### How long did you work on it?
+For about 9 months.
 
 ### What software engineering methodologies did you use (and they used)?
+We were a very small team and not all of us were working full time, so we didn't feel the need for a complete methodology on this project, but we did use a Kanban and had weekly sprints.
 
 ### Define a measure of success for a software engineering project.
+I believe that a successful engineering project should be able to stick to a roadmap while still quality and scalability.
 
 ### Define errors in your job routine at the beginning of your career and how you fixed those?
+At the beginning of my career I believed that my job as a front-end was to just turn a PSD into an interface. After working and learning with senior developers I learned that my job was also to care for the user experience and acessibility, and most all, to care for the readability and scalability of the client-side code.
+
+## 2. Perform an evaluation on the website http://ozcontent.com
+### What do you like/dislike about it?
+
+### Provide three suggestions to improve it?
