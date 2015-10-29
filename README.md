@@ -59,5 +59,8 @@ At the beginning of my career I believed that my job as a front-end was to just 
 
 ## 2. Perform an evaluation on the website http://ozcontent.com
 ### What do you like/dislike about it?
+It has an intuitive navigation, it's easy to find the information I'm looking for, but personally I think the design needs some polishing.
 
 ### Provide three suggestions to improve it?
+On the front-end: There's a lot of inline code on the html, maybe create some classes instead? Also I'd suggest using ".svg" or font-face over ".png" so that the icons arent distoreted/pixalated on Retina or high density displays.
+On the design: Some more padding between blocks and a better separation of sections would make a great improvement on the page I believe. I'd also try to make the font-size slightly smaller and change the background or the color on the call-to-action buttons (dark yellow and black don't make a lot of contrast). Of course I haven't done any research on this and I may be biased, so I'd do some A/B testing before making any of these changes.
