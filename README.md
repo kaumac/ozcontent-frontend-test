@@ -4,7 +4,7 @@ Repository for the OZ Content Front-end Test
 ## 0. Context
 
 ### What is your favorite website and why?
-I really like Mashable, it gives me a good mix of updated articles about technology, politics, entertainment and business. 
+I really like Mashable, it gives me a good mix of quality articles about technology, politics, entertainment and business. 
 ### What is your favorite product in real life and why?
 Probably my Moto X as it really helps me keep organized and productive (I know, sometimes it also makes me unproductive).
 ### What programmers or scientist do you admire and why?
@@ -22,7 +22,7 @@ Right now I'm working with Sublime Text 3 (tried Atom, Brackets, etc, but ST3 ex
 ### What are your favorite repos on Github and why?
 I always check Ionic, React and React Native repos on GitHub. I really believe that there can be a better approach to mobile development, in a more lean way where modules can be shared, and I believe these repo's/projects have the potential to change this.
 ### What are your favorite websites or blogs to find solutions and why?
-To check about a Javascript method that I'm unsure about I always check MDN (Mozilla Developer Network), and for other problems Google and Stackoverflow usually do the trick.
+To check about a Javascript method that I'm unsure about I always check MDN (Mozilla Developer Network), and for other problems Google and Stackoverflow usually do the trick. Also, there's a brazilian blog called Loop Infinito (Infite Loop) and they write articles and create experiments about beta features and specs from javascript, html and css, pretty cool blog.
 ### What is the most difficult programming question you encounteredin the past?
 I was asked to decrease load time on GetNinjas landing page to test if it would help on conversion rates.
 ### Did you solve it? Where did you find the solution? How much timedid you spend on it?
@@ -55,7 +55,7 @@ We were a very small team and not all of us were working full time, so we didn't
 I believe that a successful engineering project should be able to stick to a roadmap while still quality and scalability.
 
 ### Define errors in your job routine at the beginning of your career and how you fixed those?
-At the beginning of my career I believed that my job as a front-end was to just turn a PSD into an interface. After working and learning with senior developers I learned that my job was also to care for the user experience and acessibility, and most all, to care for the readability and scalability of the client-side code.
+At the beginning of my career I believed that my job as a front-end was to just turn a PSD into code. After working with some great developers I learned that my job was also to care for the user experience and acessibility, and most all, to care for the readability and scalability of the client-side code.
 
 ## 2. Perform an evaluation on the website http://ozcontent.com
 ### What do you like/dislike about it?
