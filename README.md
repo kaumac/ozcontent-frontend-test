@@ -64,3 +64,32 @@ It has an intuitive navigation, it's easy to find the information I'm looking fo
 ### Provide three suggestions to improve it?
 On the front-end: There's a lot of inline code on the html, maybe create some classes instead? Also I'd suggest using ".svg" or font-face over ".png" so that the icons arent distoreted/pixalated on Retina or high density displays.
 On the design: Some more padding between blocks and a better separation of sections would make a great improvement on the page I believe. I'd also try to make the font-size slightly smaller and change the background or the color on the call-to-action buttons (dark yellow and black don't make a lot of contrast). Of course I haven't done any research on this and I may be biased, so I'd do some A/B testing before making any of these changes.
+
+## 3. Register and Create an account in http://app.ozcontent.com
+### What would you say is the purpose of the product?
+Just by looking at the dashboard, without reading about the product and with no knowledge of the industry, I'd assume its a content inspiration tool.
+### What do you like/dislike about it?
+The dashboard is simple and intuitive to a point, but it'd be cool to have an onboarding proccess helping me step by step to get started. I only found the "Product Tour" link later, maybe it could show up automatically on the first access (onboarding) with an option to skip it?
+### What do you suggest to improve the user experience?
+I believe that call to actions that are more clear to the user would help improve the UX. For instance on the list with the cards to select the subject, instead of clicking on it to show duplicated content on a darker background and then clicking again to select the subject, perhaps it would be better to just show a button with "Select subject" or "Select theme" on hover.
+### (optional but very important) If you can, prototype or mockup a solution for it. (push your code into a public repo, produce a git conflict, resolve it and push back in github)
+Check the folder "solution_mockup" for the mockup and https://github.com/kaumac/ozcontent-frontend-test/commits/master for the git conflict.
+### Write an efficient program that removes stopwords from a given text using the stopword list included here. Why is your solution is efficient?
+Check the folder "breakword"
+
+## 4. Onboarding
+### If you join our team, what stack do you want to use and why?
+ST3 (I'm more productive with it), 
+### What practices do you like in your team? TDD, Agile, ...etc?
+I really like Scrum (not by the book though) with 2 week sprints and sprint review, TDD, CI/CD, pair-programming and code review. But it really depends on the size of the team and stage of the company, I know not all of this is practicable in early stages.
+### What time do you feel efficient to work (day, night)?
+I'm used to working during the day, but I'm most efficint during the night, probably because there's less interruptions.
+### Describe an optimal environment to program seamless and efficiently.
+In my experience a smaller office without a lot of interruptions from other teams and where the sprint or the tasks and features are thoroughly discussed is the one where I'm most efficient.
+### What job routine has been effective for you in the past? (time schedules, code reviews...etc)
+### Do you prefer large or small projects?
+### What do you want to learn in the next 6 and next 12 months? (technology, theory and hobbies)
+
+### What elements do you think are important in the culture of a startup and why?
+
+### Describe diversity in your job environment: if your team is not diverse at the moment, do you think it is important? What our community can do to improve this aspect?
