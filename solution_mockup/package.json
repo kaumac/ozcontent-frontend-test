@@ -1,0 +1,15 @@
+{
+  "name": "solutionPrototype",
+  "version": "1.0.0",
+  "description": "Solution prototype for front-end test at OZ Content",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
+  }
+}
