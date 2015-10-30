@@ -1,0 +1,18 @@
+{
+  "name": "solutionPrototype",
+  "version": "0.0.0",
+  "authors": [
+    "Kaue Miyauti Machado <kaumac@gmail.com>"
+  ],
+  "description": "OZ Content solution prototype (front-end dependencies)",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
