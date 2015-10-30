@@ -2,7 +2,9 @@
   "name": "solutionPrototype",
   "version": "1.0.0",
   "description": "Solution prototype for front-end test at OZ Content",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "gulp-concat": "^2.6.0",
