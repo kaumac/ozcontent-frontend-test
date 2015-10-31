@@ -10,12 +10,6 @@
   	overflow: hidden;
   	border: 1px solid lighten($dark, 64%);
   	background-color: #FFF;
-  	box-shadow: 0 2px 18px lighten($dark, 68%);
-
-  	&:hover {
-  		cursor: pointer;
-  		border: 1px solid $blue400;
-  	}
 
 		.topic-header {
 			background-position: center;
@@ -45,17 +39,32 @@
   		padding: 12px;
 
 			.topic-tags {
-				padding: 12px 0;
+				padding: 12px 0 24px;
+				border-bottom: 1px dotted #CCC;
+				min-height: 21vh;
 			}
 
   		.select-topic {
   			width: 100%;
-  			border: 1px solid #AAA;
+  			border: 1px solid #CCC;
   			background-color: transparent;
-  			color: #AAA;
-  			border-radius: 4px;
+  			color: #CCC;
+  			border-radius: 6px;
   			padding: 12px 0;
   			margin-top: 12px;
+  		}
+  	}
+
+  	&:hover {
+  		cursor: pointer;
+  		border: 1px solid $blue400;
+
+  		.topic-content {
+  			.select-topic {
+					background-color: $blue400;
+					color: #FFF;
+					border: none;
+				}
   		}
   	}
 	}

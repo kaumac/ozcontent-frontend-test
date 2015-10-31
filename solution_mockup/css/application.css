@@ -99,17 +99,13 @@ html {
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid #e0e6e9;
-    background-color: #FFF;
-    box-shadow: 0 2px 18px #eceff1; }
+    background-color: #FFF; }
     .topics-list .topic:last-child {
       margin-right: 0; }
     .topics-list .topic:nth-child(4n) {
       margin-right: 0; }
     .topics-list .topic:nth-child(4n+1) {
       clear: left; }
-    .topics-list .topic:hover {
-      cursor: pointer;
-      border: 1px solid #29B6F6; }
     .topics-list .topic .topic-header {
       background-position: center;
       background-repeat: no-repeat;
@@ -133,15 +129,24 @@ html {
     .topics-list .topic .topic-content {
       padding: 12px; }
       .topics-list .topic .topic-content .topic-tags {
-        padding: 12px 0; }
+        padding: 12px 0 24px;
+        border-bottom: 1px dotted #CCC;
+        min-height: 21vh; }
       .topics-list .topic .topic-content .select-topic {
         width: 100%;
-        border: 1px solid #AAA;
+        border: 1px solid #CCC;
         background-color: transparent;
-        color: #AAA;
-        border-radius: 4px;
+        color: #CCC;
+        border-radius: 6px;
         padding: 12px 0;
         margin-top: 12px; }
+    .topics-list .topic:hover {
+      cursor: pointer;
+      border: 1px solid #29B6F6; }
+      .topics-list .topic:hover .topic-content .select-topic {
+        background-color: #29B6F6;
+        color: #FFF;
+        border: none; }
 
 .tag-list {
   list-style: none;
