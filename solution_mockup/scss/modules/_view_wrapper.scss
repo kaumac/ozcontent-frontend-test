@@ -1,0 +1,4 @@
+#view_wrapper {
+	float: left;
+	width: calc(100% - #{$sidebar_menu_width});
+}

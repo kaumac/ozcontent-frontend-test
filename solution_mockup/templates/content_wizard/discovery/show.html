@@ -1,0 +1,16 @@
+<ul class="topics-list">
+	<li class="topic" ng-repeat="topic in topics" ng-click="check_in_at(hotel.data.$id)">
+		<div class="topic-header" ng-style="{'background-image':'url(' + topic.cover_image + ')'}">
+			<h2 class="topic-title">
+				{{ topic.topic_title }}
+			</h2>
+			<div class="topic-content">
+				<ul class="topic-tags tag-list">
+					<li class="tag" ng-repeat="tag in topic.tags">
+						{{ tag }}
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+</ul>

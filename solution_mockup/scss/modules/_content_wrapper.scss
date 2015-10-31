@@ -1,0 +1,13 @@
+.content-wrapper {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	border-top: 3px solid $blue600;
+	padding: 48px;
+	height: 100vh;
+	overflow: auto;
+
+	&.has-wizard {
+		width: calc(100% - #{$wizard_sidebar_width});
+	}
+}

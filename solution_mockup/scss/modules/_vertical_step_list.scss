@@ -1,0 +1,45 @@
+.vertical-step-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+	.step {
+	  counter-increment: step-counter;
+		margin-bottom: 24px;
+		color: #CCC;
+		font-size: 16px;
+		z-index: 20;
+		position: relative;
+
+		&::after {
+			content: '';
+			width: 1px;
+			height: 100%;
+			left: 13px;
+			display: block;
+			background-color: #DDD;
+			position: absolute;
+			top: calc(100% + 3px);
+			z-index: 0;
+		}
+
+		&::before {
+			content: counter(step-counter);
+		  margin-right: 5px;
+		  font-weight: bold;
+		  font-size: 80%;
+		  padding: 2px 8px;
+		  border-radius: 100%;
+		  border-color: #CCC;
+		  border-style: solid;
+		  border-width: 2px;
+		  box-sizing: border-box;
+		}
+
+		&:last-child {
+			&::after { 
+				display: none;
+			}
+		}
+	}
+}
