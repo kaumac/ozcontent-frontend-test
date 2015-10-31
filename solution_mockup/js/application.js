@@ -27,7 +27,12 @@ angular.module('solutionPrototype', ['ui.router', 'firebase'])
     .state('contentWizard.deepDive', {
       url: "/deep_dive",
       templateUrl: "templates/content_wizard/deep_dive/show.html",
-      controller: "ContentWizardDeepDiveController"
+      controller: "ContentWizardDeepDiveController",
+      resolve: {
+        articles: function(articlesService) {
+          return articlesService.getArticles();
+        }
+      }
     })
 
   // =====================================================
