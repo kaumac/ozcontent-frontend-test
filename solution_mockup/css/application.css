@@ -107,29 +107,41 @@ html {
       margin-right: 0; }
     .topics-list .topic:nth-child(4n+1) {
       clear: left; }
+    .topics-list .topic:hover {
+      cursor: pointer;
+      border: 1px solid #29B6F6; }
     .topics-list .topic .topic-header {
+      background-position: center;
+      background-repeat: no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      margin: 0;
-      padding-top: 72px; }
+      background-size: cover; }
       .topics-list .topic .topic-header .topic-title {
         background-color: transparent;
-        background-image: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.6) 100%);
-        background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.6) 100%);
-        line-height: 24px;
-        height: 48px;
-        padding: 0;
+        background-image: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 100%);
+        background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 100%);
+        padding: 72px 0 24px;
         margin: 0;
         color: #FFF;
-        font-size: 18px; }
+        font-size: 16px;
+        text-align: center;
+        line-height: 16px; }
+      .topics-list .topic .topic-header .topic-source-materials {
+        font-size: 12px;
+        font-weight: 100; }
     .topics-list .topic .topic-content {
-      padding: 12px;
-      float: left;
-      width: 100%; }
+      padding: 12px; }
+      .topics-list .topic .topic-content .topic-tags {
+        padding: 12px 0; }
+      .topics-list .topic .topic-content .select-topic {
+        width: 100%;
+        border: 1px solid #AAA;
+        background-color: transparent;
+        color: #AAA;
+        border-radius: 4px;
+        padding: 12px 0;
+        margin-top: 12px; }
 
 .tag-list {
   list-style: none;

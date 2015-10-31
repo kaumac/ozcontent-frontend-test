@@ -3,14 +3,19 @@
 		<div class="topic-header" ng-style="{'background-image':'url(' + topic.cover_image + ')'}">
 			<h2 class="topic-title">
 				{{ topic.topic_title }}
+				<br>
+				<small class="topic-source-materials">{{ topic.source_materials }} source materials</small>
 			</h2>
-			<div class="topic-content">
-				<ul class="topic-tags tag-list">
-					<li class="tag" ng-repeat="tag in topic.tags">
-						{{ tag }}
-					</li>
-				</ul>
-			</div>
+		</div>
+		<div class="topic-content">
+			<ul class="topic-tags tag-list">
+				<li class="tag" ng-repeat="tag in topic.tags">
+					{{ tag }}
+				</li>
+			</ul>
+			<button class="button-outline select-topic">
+				Select this topic
+			</button>
 		</div>
 	</li>
 </ul>
