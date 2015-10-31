@@ -1,8 +1,9 @@
 .content-wrapper {
 	width: 100%;
-	float: left;
+	max-width: 1200px;
+	float: none;
+	margin: 0 auto;
 	box-sizing: border-box;
-	border-top: 3px solid $blue600;
 	padding: 48px;
 	height: 100vh;
 	overflow: auto;

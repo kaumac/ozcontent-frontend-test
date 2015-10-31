@@ -9,7 +9,7 @@ html {
   background-color: #f8f9fa;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 13px;
   color: #666; }
 
 #sidebar_menu {
@@ -35,11 +35,17 @@ html {
   padding: 24px; }
   #wizard_sidebar .wizard-title {
     font-size: 24px;
-    font-weight: 500;
-    line-height: 32px; }
+    font-weight: 600; }
+  #wizard_sidebar .wizard-subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 6px; }
   #wizard_sidebar .wizard-description {
-    margin-bottom: 60px;
-    color: #AAA; }
+    margin: 0; }
+  #wizard_sidebar .wizard-tip {
+    font-size: 12px;
+    color: #AAA;
+    margin: 48px 0 24px; }
 
 .vertical-step-list {
   list-style-type: none;
@@ -78,9 +84,10 @@ html {
 
 .content-wrapper {
   width: 100%;
-  float: left;
+  max-width: 1200px;
+  float: none;
+  margin: 0 auto;
   box-sizing: border-box;
-  border-top: 3px solid #039BE5;
   padding: 48px;
   height: 100vh;
   overflow: auto; }

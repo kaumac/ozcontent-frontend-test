@@ -10,12 +10,22 @@
 
 	.wizard-title {
 		font-size: 24px;
-		font-weight: 500;
-		line-height: 32px;
+		font-weight: 600;
+	}
+
+	.wizard-subtitle {
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0 0 6px;
 	}
 
 	.wizard-description {
-		margin-bottom: 60px;
+		margin: 0;
+	}
+
+	.wizard-tip {
+		font-size: 12px;
 		color: #AAA;
+		margin: 48px 0 24px;
 	}
 }
