@@ -12,6 +12,17 @@ html {
   font-size: 13px;
   color: #666; }
 
+.number-heading {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 80%;
+  padding: 2px 8px;
+  border-radius: 100%;
+  border-color: #CCC;
+  border-style: solid;
+  border-width: 2px;
+  box-sizing: border-box; }
+
 #sidebar_menu {
   width: 64px;
   height: 100vh;
@@ -33,16 +44,16 @@ html {
   border-right: 1px solid #d4dce0;
   border-top: 3px solid #03A9F4;
   padding: 24px; }
-  #wizard_sidebar .wizard-title {
+  #wizard_sidebar .wizard-sidebar-title {
     font-size: 24px;
     font-weight: 600; }
-  #wizard_sidebar .wizard-subtitle {
+  #wizard_sidebar .wizard-sidebar-subtitle {
     font-size: 15px;
     font-weight: 400;
     margin: 0 0 6px; }
-  #wizard_sidebar .wizard-description {
+  #wizard_sidebar .wizard-sidebar-description {
     margin: 0; }
-  #wizard_sidebar .wizard-tip {
+  #wizard_sidebar .wizard-sidebar-tip {
     font-size: 12px;
     color: #AAA;
     margin: 48px 0 24px; }
@@ -81,6 +92,20 @@ html {
       box-sizing: border-box; }
     .vertical-step-list .step:last-child::after {
       display: none; }
+    .vertical-step-list .step.active {
+      font-weight: 500;
+      color: #29B6F6; }
+      .vertical-step-list .step.active::before {
+        border-color: #29B6F6;
+        background-color: #29B6F6;
+        color: #FFF; }
+    .vertical-step-list .step.done {
+      font-weight: 500;
+      color: #00E676; }
+      .vertical-step-list .step.done::before {
+        border-color: #00E676;
+        background-color: #00E676;
+        color: #FFF; }
 
 .content-wrapper {
   width: 100%;
@@ -167,3 +192,33 @@ html {
     border-radius: 12px;
     font-size: 0.8rem;
     border: 1px solid #CCC; }
+
+.wizard-header {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px dotted #d4dce0; }
+  .wizard-header .wizard-title {
+    font-size: 36px; }
+    .wizard-header .wizard-title::before {
+      content: attr(data-number);
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      background: #03A9F4;
+      display: inline-block;
+      text-align: center;
+      border-radius: 100%;
+      color: #FFF;
+      margin-right: 12px; }
+  .wizard-header .wizard-subtitle {
+    font-weight: 100;
+    font-size: 18px;
+    color: #888;
+    margin: 0;
+    padding: 0;
+    max-width: 36%;
+    display: inline-block; }
+    .wizard-header .wizard-subtitle em {
+      font-style: normal;
+      font-weight: 700; }

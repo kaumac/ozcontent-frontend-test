@@ -1,27 +1,18 @@
-<h2 class="wizard-title">
+<h2 class="wizard-sidebar-title">
 	New content
 </h2>
-<h3 class="wizard-subtitle">
+<h3 class="wizard-sidebar-subtitle">
 	GrowthHacking
 </h3>
-<p class="wizard-description">
+<p class="wizard-sidebar-description">
 	Top 50 Growth Hackers on Twitter (ON)
 </p>
 
-<p class="wizard-tip">
+<p class="wizard-sidebar-tip">
 	We'll help you craft remarkable content about a subject with only a few simple steps
 </p>
-<ol class="wizard-steps vertical-step-list">
-	<li class="step">
-		Discovery
-	</li>
-	<li class="step">
-		Deep dive
-	</li>
-	<li class="step">
-		Content creation
-	</li>
-	<li class="step">
-		Publish draft
+<ol class="wizard-sidebar-steps vertical-step-list">
+	<li class="step" ng-repeat="step in wizard_steps" ng-class="{'active': step.status == 'current', 'done': step.status == 'done'}" >
+		{{ step.name }}
 	</li>
 </ol>

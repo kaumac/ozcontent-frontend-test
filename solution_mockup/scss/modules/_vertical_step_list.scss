@@ -41,5 +41,27 @@
 				display: none;
 			}
 		}
+
+		&.active {
+			font-weight: 500;
+			color: $blue400;
+
+			&::before {
+				border-color: $blue400;
+				background-color: $blue400;
+				color: #FFF;
+			}
+		}
+
+		&.done {
+			font-weight: 500;
+			color: $greenA400;
+
+			&::before {
+				border-color: $greenA400;
+				background-color: $greenA400;
+				color: #FFF;
+			}
+		}
 	}
 }

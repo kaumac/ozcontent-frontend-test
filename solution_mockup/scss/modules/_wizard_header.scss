@@ -1,0 +1,36 @@
+.wizard-header {
+	text-align: center;
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px dotted lighten($dark, 60%);
+	.wizard-title {
+		font-size: 36px;
+    &::before {
+    	content: attr(data-number);
+			width: 48px;
+	    height: 48px;
+	    line-height: 48px;
+	    background: #03A9F4;
+	    display: inline-block;
+	    text-align: center;
+	    border-radius: 100%;
+	    color: #FFF;
+	    margin-right: 12px;
+    }
+	}
+
+	.wizard-subtitle {
+		font-weight: 100;
+		font-size: 18px;
+		color: #888;
+		margin: 0;
+		padding: 0;
+		max-width: 36%;
+		display: inline-block;
+
+		em {
+			font-style: normal;
+			font-weight: 700;
+		}
+	}
+}

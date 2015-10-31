@@ -18,6 +18,11 @@
 @import "general_layout";
 
 // ==========================================================
+// Components
+// ==========================================================
+@import "components/number_heading";
+
+// ==========================================================
 // Modules
 // ==========================================================
 @import "modules/sidebar_menu";
@@ -27,3 +32,4 @@
 @import "modules/content_wrapper";
 @import "modules/topics_list";
 @import "modules/tag_list";
+@import "modules/wizard_header";
