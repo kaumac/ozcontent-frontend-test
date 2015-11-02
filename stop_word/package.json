@@ -1,0 +1,25 @@
+{
+  "name": "stop_word_test",
+  "version": "1.0.0",
+  "description": "Stop word test for OZ Content",
+  "main": "index.js",
+  "dependencies": {
+    "jest-cli": "^0.6.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.6.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaumac/ozcontent-frontend-test.git"
+  },
+  "author": "Kaue Miyauti Machado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaumac/ozcontent-frontend-test/issues"
+  },
+  "homepage": "https://github.com/kaumac/ozcontent-frontend-test#readme"
+}
