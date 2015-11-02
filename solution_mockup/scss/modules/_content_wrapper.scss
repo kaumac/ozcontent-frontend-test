@@ -1,0 +1,14 @@
+.content-wrapper {
+	width: 100%;
+	max-width: 1200px;
+	float: none;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 48px;
+	height: 100vh;
+	overflow: auto;
+
+	&.has-wizard {
+		width: calc(100% - #{$wizard_sidebar_width});
+	}
+}

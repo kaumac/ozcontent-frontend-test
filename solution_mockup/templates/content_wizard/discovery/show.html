@@ -1,0 +1,30 @@
+<header class="content-header wizard-header">
+	<h1 class="wizard-title" data-number="1">
+		Discovery
+	</h1>
+	<h2 class="wizard-subtitle">
+		Analyze the tags and select a theme about <em>GrowthHacking</em> that you want to write about. 
+	</h2>
+</header>
+
+<ul class="topics-list">
+	<li class="topic" ng-repeat="topic in topics" ng-click="select_topic()">
+		<div class="topic-header" ng-style="{'background-image':'url(' + topic.cover_image + ')'}">
+			<h2 class="topic-title">
+				{{ topic.topic_title }}
+				<br>
+				<small class="topic-source-materials">{{ topic.source_materials }} source articles</small>
+			</h2>
+		</div>
+		<div class="topic-content">
+			<ul class="topic-tags tag-list">
+				<li class="tag" ng-repeat="tag in topic.tags">
+					{{ tag }}
+				</li>
+			</ul>
+			<button class="button-outline select-topic">
+				Select this topic
+			</button>
+		</div>
+	</li>
+</ul>

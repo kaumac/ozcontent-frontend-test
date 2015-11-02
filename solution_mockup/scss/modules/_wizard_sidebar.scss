@@ -1,0 +1,31 @@
+#wizard_sidebar {
+	width: $wizard_sidebar_width;
+	height: 100vh;
+	float: left;
+	background-color: #FFF;
+	box-sizing: border-box;
+	border-right: 1px solid lighten($dark, 60%);
+	border-top: 3px solid $blue500;
+	padding: 24px;
+
+	.wizard-sidebar-title {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	.wizard-sidebar-subtitle {
+		font-size: 15px;
+		font-weight: 400;
+		margin: 0 0 6px;
+	}
+
+	.wizard-sidebar-description {
+		margin: 0;
+	}
+
+	.wizard-sidebar-tip {
+		font-size: 12px;
+		color: #AAA;
+		margin: 48px 0 24px;
+	}
+}

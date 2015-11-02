@@ -1,0 +1,116 @@
+.scale-in {
+  transform: scale(0.75);
+  opacity: 0;
+}
+.scale-in.ng-enter,
+.scale-in > .ng-enter {
+  transition: all cubic-bezier(.1, .3, .1, 1) 600ms;
+}
+
+.scale-in.ng-enter-active,
+.scale-in > .ng-enter-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.scale-in.ng-leave,
+.scale-in > .ng-leave {
+  transition: all ease-in-out 300ms;
+}
+
+
+.slide-in-left {
+  @include transform(translate3d(100%, 0, 0));
+}
+.slide-in-left.ng-enter,
+.slide-in-left > .ng-enter {
+  @include transition(all cubic-bezier(.1, .3, .1, 1) 600ms);
+}
+.slide-in-left.ng-enter-active,
+.slide-in-left > .ng-enter-active {
+  @include transform(translate3d(0, 0, 0));
+}
+
+.slide-in-left.ng-leave,
+.slide-in-left > .ng-leave {
+  @include transition(all ease-in-out 300ms);
+}
+
+// Fade from bottom animation keyframes
+@include keyframes(fadeFromBottom) {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(0, 30%);
+    -ms-transform: translate(0, 30%);
+    transform: translate(0, 30%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+// Fade from bottom helper class
+.fade-from-bottom {
+  @include animation-name(fadeFromBottom);
+  @include animation-duration(0.75s);
+  @include animation-fill-mode(both);
+  @include animation-timing-function(ease);
+}
+
+.fade-from-bottom-slower {
+  @include animation-name(fadeFromBottom);
+  @include animation-duration(1.5s);
+  @include animation-fill-mode(both);
+  @include animation-timing-function(ease);
+}
+
+// Fade from Left animation keyframes
+@include keyframes(fadeFromLeft) {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-5rem, 0);
+    -ms-transform: translate(-5rem, 0);
+    transform: translate(-5rem, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+// Fade from Left helper class
+.fade-from-left {
+  @include animation-name(fadeFromLeft);
+  @include animation-duration(1s);
+  @include animation-fill-mode(both);
+  @include animation-timing-function(ease);
+}
+
+// Fade from Right animation keyframes
+@include keyframes(fadeFromRight) {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(5rem, 0);
+    -ms-transform: translate(5rem, 0);
+    transform: translate(5rem, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+// Fade from Left helper class
+.fade-from-right {
+  @include animation-name(fadeFromRight);
+  @include animation-duration(1s);
+  @include animation-fill-mode(both);
+  @include animation-timing-function(ease);
+}

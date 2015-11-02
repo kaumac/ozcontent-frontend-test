@@ -1,0 +1,28 @@
+{
+  "name": "solutionPrototype",
+  "version": "0.0.0",
+  "authors": [
+    "Kaue Miyauti Machado <kaumac@gmail.com>"
+  ],
+  "description": "OZ Content solution prototype (front-end dependencies)",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1",
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-cookies": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.7",
+    "firebase": "~2.3.1",
+    "angularfire": "~1.1.3"
+  }
+}

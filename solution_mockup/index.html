@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OZ Content</title>
+	<script src="/bower_components/lodash/lodash.min.js"></script>
+  <script src="/bower_components/firebase/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.2.0/codemirror.js"></script>
+  <script src="https://cdn.firebase.com/libs/firepad/1.2.0/firepad.min.js"></script>
+
+	<!-- AngularJS -->
+	<script src="bower_components/angular/angular.js"></script>
+
+	<!-- Angular modules -->
+  <script src="/bower_components/angularfire/dist/angularfire.js"></script>
+  <script src="/bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="/bower_components/angular-resource/angular-resource.js"></script>
+  <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.js"></script>
+
+	<!-- JS Application -->
+  <script src="js/application.js"></script>
+
+	<!-- Controllers -->
+  <script src="js/controllers/content_wizard/discovery_controller.js"></script>
+  <script src="js/controllers/content_wizard/deep_dive_controller.js"></script>
+  <script src="js/controllers/content_wizard/content_creation_controller.js"></script>
+  <script src="js/controllers/content_wizard/sidebar_controller.js"></script>
+
+  <!-- Services -->
+  <script src="js/services/topics_service.js"></script>
+  <script src="js/services/articles_service.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+	<link href="https://file.myfontastic.com/mecUqx27RXweeUzH6x3vbH/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.2.0/codemirror.css" />
+	<link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.2.0/firepad.css" />
+	<link rel="stylesheet" type="text/css" href="css/application.css">
+</head>
+<body ng-app="solutionPrototype">
+	<nav id="sidebar_menu">
+		<ul class="sidebar-menu-items">
+			<li class="menu-item">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</li>
+		</ul>
+	</nav>
+	<section id="view_wrapper" ui-view></section>
+</body>
+</html>
