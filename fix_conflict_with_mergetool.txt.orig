@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+conflict, this string should be discarted
+=======
+fixing conflict with xcode mergetool
+conflicting change, this string should be kept
+>>>>>>> mergetool_conflict
