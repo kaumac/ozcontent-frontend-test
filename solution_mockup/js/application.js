@@ -34,6 +34,11 @@ angular.module('solutionPrototype', ['ui.router', 'firebase'])
         }
       }
     })
+    .state('contentWizard.contentCreation', {
+      url: "/content_creation",
+      templateUrl: "templates/content_wizard/content_creation/show.html",
+      controller: "ContentWizardContentCreationController"
+    })
 
   // =====================================================
   // Router route fallback

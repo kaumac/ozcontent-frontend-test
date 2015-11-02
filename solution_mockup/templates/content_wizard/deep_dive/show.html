@@ -9,6 +9,7 @@
 
 <ul class="articles-list">
 	<li class="article" ng-repeat="(key, value) in articles" ng-class="{'selected': selectedArticles[key] === true}">
+		<i class="icon-check-mark-circle selected-article-symbol"></i>
 		<div class="article-actions">
 			<ul class="actions-list" ng-switch="selectedArticles[key] === true">
 				<li class="action select" ng-switch-default ng-click="add_article(key)">
@@ -29,12 +30,6 @@
 					</span>
 					Preview
 				</li>
-				<!-- <li class="action">
-					<span class="action-icon">
-						<i class="icon-trash"></i>
-					</span>
-					Delete
-				</li> -->
 			</ul>
 		</div>
 		<h2 class="article-title">

@@ -17,7 +17,13 @@ angular.module('solutionPrototype').controller('ContentWizardDeepDiveController'
 	$scope.$on('articleSelected', function() {
 		var selectedArticlesCount = Object.keys($scope.selectedArticles).length;
 		if(selectedArticlesCount >= 3) {
-			alert('3 ou mais');
+			var goToCreation = confirm('3 or more articles selected, it should trigger the fixed header with continue button and show a modal asking the user if he wants to go to content creation.\nWill work on this later =P.\nFor now just press "OK" to go to content creation =)');
+			if (goToCreation == true) {
+		    $state.go('contentWizard.contentCreation');
+			} else {
+				alert('This is not the button you are looking for! (Star wars?)\nTry again, not a lot of options here, just press "OK" next time =)');
+				$scope.selectedArticles = {};
+			}
 		}
 	});
 
