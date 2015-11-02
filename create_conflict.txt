@@ -1,1 +1,2 @@
 creating a conflict here
+another change on the original file
