@@ -1,6 +1,9 @@
 # OZ Content: Front-end test
 Repository for the OZ Content Front-end Test
 
+#### Done: Questions, Improve UX test and git conflict.
+#### To do: Stop word script and Implement Firepad on the Improve UX test.
+
 ## 0. Context
 
 ### What is your favorite website and why?
