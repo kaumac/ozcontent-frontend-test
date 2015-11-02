@@ -7,24 +7,60 @@
 	</h2>
 </header>
 
-<ul class="topics-list">
-	<li class="topic" ng-repeat="topic in topics" ng-click="select_topic()">
-		<div class="topic-header" ng-style="{'background-image':'url(' + topic.cover_image + ')'}">
-			<h2 class="topic-title">
-				{{ topic.topic_title }}
-				<br>
-				<small class="topic-source-materials">{{ topic.source_materials }} source articles</small>
-			</h2>
+<ul class="articles-list">
+	<li class="article" ng-repeat="(key, value) in articles" ng-class="{'selected': selectedArticles[key] === true}">
+		<div class="article-actions">
+			<ul class="actions-list" ng-switch="selectedArticles[key] === true">
+				<li class="action select" ng-switch-default ng-click="add_article(key)">
+					<span class="action-icon">
+						<i class="icon-plus"></i>
+					</span>
+					Select
+				</li>
+				<li class="action remove" ng-switch-when="true" ng-click="remove_article(key)">
+					<span class="action-icon">
+						<i class="icon-minus-1"></i>
+					</span>
+					Remove
+				</li>
+				<li class="action">
+					<span class="action-icon">
+						<i class="icon-news"></i>
+					</span>
+					Preview
+				</li>
+				<!-- <li class="action">
+					<span class="action-icon">
+						<i class="icon-trash"></i>
+					</span>
+					Delete
+				</li> -->
+			</ul>
 		</div>
-		<div class="topic-content">
-			<ul class="topic-tags tag-list">
-				<li class="tag" ng-repeat="tag in topic.tags">
-					{{ tag }}
+		<h2 class="article-title">
+			<a href="{{ value.url }}">
+				{{ value.title }}
+			</a>
+			<br>
+			<small class="article-details">
+				Created on {{ value.date }} by <a href="{{ value.url }}">{{ value.source }}</a>
+			</small>
+		</h2>
+		<p class="article-intro">
+			{{ value.intro }}
+		</p>
+		<div class="article-popularity">
+			<ul class="article-popularity-items">
+				<li class="popularity-item">
+					<i class="icon-facebook"></i>{{ value.share_count.facebook }}
+				</li>
+				<li class="popularity-item">
+					<i class="icon-twitter"></i>{{ value.share_count.twitter }}
+				</li>
+				<li class="popularity-item">
+					<i class="icon-linkedin"></i>{{ value.share_count.linkedin }}
 				</li>
 			</ul>
-			<button class="button-outline select-topic">
-				Select this topic
-			</button>
 		</div>
 	</li>
 </ul>

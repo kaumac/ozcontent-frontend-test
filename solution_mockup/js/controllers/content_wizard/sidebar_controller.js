@@ -22,14 +22,4 @@ angular.module('solutionPrototype').controller('ContentWizardSidebarController',
 		}
 		$scope.wizard_steps[toState.name].status = 'current';
 	})
-
-	// var changeStep = function(step) {
-	// 	$scope.wizard_steps[$scope.currentStep].status = 'done';
-	// 	$scope.currentStep = step;
-	// 	$scope.wizard_steps[step].status = 'current';
-	// 	console.log($scope.wizard_steps);
-	// }
-  // $rootScope.$on('wizard_step_changed', function(event, step) {
-  // 	changeStep(step);
-  // });
 });
