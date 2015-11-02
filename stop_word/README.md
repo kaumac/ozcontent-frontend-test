@@ -1,7 +1,9 @@
 # Stop words test
 
 ## Install dependencies
+Using NVM is optional, you just need to have Node > 4.0. But if you have NVM there's a version file.
 ```
+nvm install && nvm use
 npm install
 ```
 
