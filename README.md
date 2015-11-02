@@ -79,17 +79,21 @@ Check the folder "breakword"
 
 ## 4. Onboarding
 ### If you join our team, what stack do you want to use and why?
-ST3 (I'm more productive with it), 
+GulpJS, LibSASS+Bourboun & Neat and AngularJS. This is the fastest stack to develop with that I've tested so far
 ### What practices do you like in your team? TDD, Agile, ...etc?
 I really like Scrum (not by the book though) with 2 week sprints and sprint review, TDD, CI/CD, pair-programming and code review. But it really depends on the size of the team and stage of the company, I know not all of this is practicable in early stages.
 ### What time do you feel efficient to work (day, night)?
-I'm used to working during the day, but I'm most efficint during the night, probably because there's less interruptions.
+I'm used to working during the day, but I'm most efficient during the night, probably because there's less interruptions, noise and so on.
 ### Describe an optimal environment to program seamless and efficiently.
 In my experience a smaller office without a lot of interruptions from other teams and where the sprint or the tasks and features are thoroughly discussed is the one where I'm most efficient.
 ### What job routine has been effective for you in the past? (time schedules, code reviews...etc)
+The most effective so far: A 'tailored' Scrum using Trello for Kanban, 2 week sprints with 2 months roadmaps. We had 5 minutes standup meetings around 11:30am, worked with pair-programming and had code reviews on every pull request (everyone analysed the PR and commented with feedback on GitHub). 
 ### Do you prefer large or small projects?
+I've worked with both and personally I prefer smaller products because I'm able to know it better as a whole and to have a bigger impact on it. Larger products are cool too as long as the teams are well structured and everyone have a clear vision of what needs to be done.
 ### What do you want to learn in the next 6 and next 12 months? (technology, theory and hobbies)
-
+ReactJS has been in my radar for some time now, I'm specially interested in the ReactNative project. I've been very interested in learning more about GrowthHacking and content marketing recently. Also I've always wanted to learn snowboarding, it's still in my bucketlist though.
 ### What elements do you think are important in the culture of a startup and why?
-
+1. Transparency: It's great to work in a team where you are able and expected to share the problems you're facing, things you're unhappy with, etc, and you can expect others in the team to have the same transparency with you.
+2. Curiosity: Startups are all about tests, doing several small iterations to improve the product. People should be curious to always improve (to think about how something works, how to improve it), and not only at professional level, but on personal too.
+3. Freedom and responsibility: Micromanaging doesn't go well with startups, people should be able to manage themselves, to be aware of what they need to do, of what and when they need to deliver.
 ### Describe diversity in your job environment: if your team is not diverse at the moment, do you think it is important? What our community can do to improve this aspect?
