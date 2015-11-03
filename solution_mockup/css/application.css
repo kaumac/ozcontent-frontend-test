@@ -5,7 +5,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.center-align, .articles-list .article .article-actions .actions-list, .articles-list .article .article-actions .action .action-icon i {
+.center-align, .articles-list .article .article-actions .actions-list, .articles-list .article .article-actions .action .action-icon i, .new-comment-modal {
   position: relative;
   top: 50%;
   left: 50%;
@@ -541,6 +541,68 @@ html {
     font-size: 0.8rem;
     border: 1px solid #CCC; }
 
+.show-comments-button {
+  border: none;
+  background: #29B6F6;
+  color: #FFF;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  margin-top: 24px; }
+
+.comments-sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 216px;
+  height: 100vh;
+  background: #41535b;
+  display: block;
+  z-index: 10;
+  overflow: auto; }
+  .comments-sidebar ul {
+    list-style: none;
+    color: #FFF;
+    text-align: left;
+    padding: 12px; }
+    .comments-sidebar ul li {
+      margin-bottom: 24px; }
+
+.create-comment {
+  border: none;
+  background: #29B6F6;
+  color: #FFF;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  margin-top: 24px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 10;
+  box-shadow: 0 0 24px 0 rgba(54, 69, 76, 0.6); }
+  .create-comment i {
+    vertical-align: middle;
+    margin-right: 12px;
+    font-size: 24px; }
+
+.new-comment-modal {
+  position: fixed;
+  z-index: 10;
+  width: 400px;
+  height: 25vh;
+  background-color: #36454C;
+  padding: 24px;
+  display: block;
+  box-shadow: 0 0 120px 0 rgba(54, 69, 76, 0.75); }
+  .new-comment-modal textarea {
+    width: 100%;
+    height: 85%; }
+
+.magic-text {
+  font-weight: 900;
+  background: #29B6F6; }
+
 .wizard-header {
   text-align: center;
   margin-bottom: 60px;
@@ -570,3 +632,6 @@ html {
     .wizard-header .wizard-subtitle em {
       font-style: normal;
       font-weight: 700; }
+
+#firepad {
+  height: 85vh; }

@@ -40,4 +40,9 @@
 @import "modules/topics_list";
 @import "modules/articles_list";
 @import "modules/tag_list";
+@import "modules/comments";
 @import "modules/wizard_header";
+
+#firepad {
+	height: 85vh;
+}

@@ -5,6 +5,25 @@
 	<h2 class="wizard-subtitle">
 		Review the selected articles, define your angle and save or assign an idea.
 	</h2>
+
+	<br>
+
+	<button class="show-comments-button" ng-click="toggle_sidebar()">Toggle comments</button>
+
+	<aside class="comments-sidebar" ng-show="commentsSidebarVisible === true">
+		<ul>
+			<li ng-repeat="comment in articleComments" ng-click="highlight_text(comment.positions)">
+				{{ comment.message }}
+			</li>
+		</ul>
+	</aside>
 </header>
 
 <div id="firepad"></div>
+
+<div class="new-comment-modal" ng-show="newCommentModalVisible">
+	<textarea class="new-comment-textarea" ng-model="newCommentModel"></textarea>
+	<button ng-click="submit_comment()">Submit comment</button>
+</div>
+
+<button class="create-comment" ng-click="toggle_new_comment_modal()"><i class="icon-plus"></i> Add comment</button>
